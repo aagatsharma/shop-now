@@ -15,7 +15,7 @@ const Brands = () => {
             className="flex items-center border p-8 rounded-sm border-gray-200 dark:border-gray-600"
           >
             <img
-              src={`/src/assets/brands/${brand}.png`}
+              src={`/brands/${brand}.png`}
               className="w-full object-contain max-h-40"
             />
           </Link>

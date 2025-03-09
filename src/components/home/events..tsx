@@ -40,7 +40,7 @@ const Events = () => {
             className="flex flex-col gap-3 group relative"
           >
             <img
-              src={`/src/assets/events/${event.image}`}
+              src={`/events/${event.image}`}
               className="w-full object-cover h-60 rounded-lg"
             />
             <div className="absolute bottom-4 left-4 text-white flex flex-col gap-1">

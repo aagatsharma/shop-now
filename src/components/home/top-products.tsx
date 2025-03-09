@@ -9,7 +9,7 @@ const TopProducts = () => {
       <div className="grid xl:grid-cols-3 sm:grid-cols-2 gap-5">
         <ProductCard
           largeImg
-          image="/src/assets/products/phone.png"
+          image="/products/phone.png"
           price={22.41}
           previousPrice={20.41}
           rating={4.1}
@@ -18,7 +18,7 @@ const TopProducts = () => {
         />
         <ProductCard
           largeImg
-          image="/src/assets/products/watch.png"
+          image="/products/watch.png"
           price={22.41}
           previousPrice={20.41}
           rating={4.1}
@@ -26,7 +26,7 @@ const TopProducts = () => {
         />
         <div className="grid sm:grid-cols-2 gap-5 max-xl:col-span-full">
           <ProductCard
-            image="/src/assets/products/laptop.png"
+            image="/products/laptop.png"
             price={22.41}
             previousPrice={20.41}
             rating={4.1}
@@ -34,7 +34,7 @@ const TopProducts = () => {
             discountPercent={22}
           />
           <ProductCard
-            image="/src/assets/products/phone.png"
+            image="/products/phone.png"
             price={22.41}
             previousPrice={20.41}
             rating={4.1}
@@ -42,13 +42,13 @@ const TopProducts = () => {
             discountPercent={22}
           />
           <ProductCard
-            image="/src/assets/products/watch.png"
+            image="/products/watch.png"
             price={22.41}
             rating={4.1}
             name="Mens Casual Premium Slim Fit T-Shirts"
           />
           <ProductCard
-            image="/src/assets/products/laptop.png"
+            image="/products/laptop.png"
             price={22.41}
             rating={4.1}
             previousPrice={20.41}

@@ -22,7 +22,7 @@ const TopPatterns = () => {
             className="flex flex-col gap-3 group"
           >
             <img
-              src={`/src/assets/patterns/${pattern.image}`}
+              src={`/patterns/${pattern.image}`}
               className="w-full object-cover h-60 rounded-lg"
             />
             <h1 className="text-lg group-hover:underline">{pattern.name}</h1>
